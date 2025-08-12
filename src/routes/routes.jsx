@@ -5,6 +5,7 @@ import RegisterPage from "../pages/auth/RegisterPage";
 import BaseLayout from "../BaseLayout";
 import ProfilePage from "../pages/ProfilePage";
 import PrivateRoutes from "./PrivateRoutes";
+import ProjectDetails from "../pages/ProjectDetails";
 
 const router = createBrowserRouter([
     {
@@ -22,15 +23,15 @@ const router = createBrowserRouter([
                 Component: LoginPage
             },
             {
-                path: "/register",
-                Component: RegisterPage
-            },
-            {
                 path: "/profile",
                 element: <PrivateRoutes><ProfilePage></ProfilePage></PrivateRoutes>
             }
         ]
-    }
+    },
+    {
+                path: "/project-details/:id",
+                Component: ProjectDetails
+            },
 ]);
 
 export default router;

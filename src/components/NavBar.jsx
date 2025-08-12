@@ -16,44 +16,25 @@ function NavBar() {
   };
   return (
     <div>
-      <nav className="w-full border-b p-4 fixed top-0">
-        <ul className="flex justify-center space-x-4">
-          <li>
-            <Link to="/" className="text-black hover:text-gray-400">
+      <nav className="w-full p-4 h-[55px] flex justify-center items-center space-x-4">
+        <ul>
+          <li className="list-">
+            <Link to="/" className="text-white hover:text-gray-400">
               Home
             </Link>
           </li>
-          {user && (
-            <>
-              <li>
-                <Link to="/profile" className="text-black hover:text-gray-400">
-                  Profile
-                </Link>
-              </li>
-              <li>
-                <button
-                  onClick={handleSignOut}
-                  className="text-black hover:text-gray-400"
-                >
-                  Logout
-                </button>
-              </li>
-            </>
-          )}
-          {!user && (
-            <>
-              <li>
-                <Link to="/login" className="text-black hover:text-gray-400">
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link to="/register" className="text-black hover:text-gray-400">
-                  Register
-                </Link>
-              </li>
-            </>
-          )}
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#languagentools">Language & Tools</a>
+          </li>
+          <li>
+            <a href="#my-projects">Projects</a>
+          </li>
+          <li>
+            <a href="#github-stats">Stats</a>
+          </li>
         </ul>
       </nav>
     </div>

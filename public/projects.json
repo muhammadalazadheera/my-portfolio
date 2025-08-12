@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "speakit",
+        "image": "https://i.ibb.co.com/4nWrP6KQ/Screenshot-from-2025-08-12-12-25-00.png",
+        "technologies": [
+            "react",
+            "tailwindcss",
+            "firebase auth"
+        ],
+        "description": "SpeakIt is an online platform connecting users with tutors across various languages and subjects, simplifying the process of finding, reviewing, and securely booking sessions. Inspired by platforms like Preply and Italki, SpeakIt promotes accessible learning globally through detailed tutor profiles, easy booking management, and integrated review features.",
+        "link": "https://alazadheera-assignment-11.netlify.app/",
+        "repo": "https://github.com/muhammadalazadheera/speakit",
+        "challenges": "I faced difficulties to secure the web pages which ment to be visited by only the loggedin users.",
+        "improvements": "I have plan to add a different dashboard layout to manage the backend of the website."
+    },
+    {
+        "id": 2,
+        "name": "scholargrant",
+        "image": "https://i.ibb.co.com/WpgxYXYP/Screenshot-from-2025-08-12-12-24-31.png",
+        "technologies": [
+            "react",
+            "tailwindcss",
+            "firebase auth"
+        ],
+        "description": "Scholar Grant is a MERN-based web application designed to empower students worldwide by simplifying the complex journey of discovering and applying for scholarships at top universities across the globe.",
+        "link": "https://alazadheera-assignment-12.netlify.app/",
+        "repo": "https://github.com/muhammadalazadheera/scholargrant",
+        "challenges": "A crucial part of this app is the multi role admin system. Since it was new to me, it took some time to understand the logic.",
+        "improvements": "I have plan to add a advanced filteration system."
+    },
+    {
+        "id": 3,
+        "name": "savannah's portfolio",
+        "image": "https://i.ibb.co.com/ccv29RYy/Screenshot-from-2025-08-12-12-24-07.png",
+        "technologies": [
+            "vue",
+            "tailwindcss",
+            "firebase auth",
+            "firebase store"
+        ],
+        "description": "This is a demo portfolio website for Savannah Mandel who is an Author and a PHD student. From the behind the website is capable of managing blogs and a e-library for her.",
+        "link": "https://savannah-portfolio.web.app/",
+        "repo": "https://github.com/muhammadalazadheera/savannah-portfolio",
+        "challenges": "I used firebase store for the first time. I had to spend some time to learn it.",
+        "improvements": "I want to add a schedule system using canlendly or other calender apis."
+    }
+]

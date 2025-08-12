@@ -1,2 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: false;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0d1117;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.bitcount {
+    font-family: "Bitcount Grid Single", system-ui;
+}
+
+nav ul li {
+    display: inline-block;
+    @apply mx-2
+}
+
+p, h1,h2, h3, a {
+    text-shadow: 1px 2px 35px;
+}
+
+a {
+    color: #2ea44f;
+}
+
+
+
+#top_button {
+    position: fixed;
+    right: 55px;
+    bottom: 80px;
+    font-size: 20px;
+    text-decoration: none;
+}
